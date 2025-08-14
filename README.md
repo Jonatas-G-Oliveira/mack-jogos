@@ -1,2 +1,2 @@
 # mack-jogos
-Repositório para estudos de algoritmos de johos
+Repositório para estudos de algoritmos de jogos
