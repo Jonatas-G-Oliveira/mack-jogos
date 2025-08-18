@@ -64,7 +64,7 @@ public class Tank{
     
     public void hit(){
         this.armor -= 20;
-        System.out.println(this.name + "is hit");
+        System.out.println(this.name + " is hit");
         if(this.armor <= 0){
             this.explode();
         }
@@ -73,10 +73,10 @@ public class Tank{
     public void fire_at(Tank enemy){
         if(this.ammo >= 1){
             this.ammo -= 1;
-            System.out.println(this.name + "fires on " + enemy.name);
+            System.out.println(this.name + " Fire [:::::>>> " + enemy.name);
             enemy.hit();
         }else{
-            System.out.println(this.name + "has no sheel!!");
+            System.out.println(this.name + " has no sheel!!");
         }
     }
 }
