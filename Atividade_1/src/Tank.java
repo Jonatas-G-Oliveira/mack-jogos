@@ -51,7 +51,7 @@ public class Tank{
     @Override
     public String toString(){
         if(this.alive){
-            return this.name + " ," + this.armor + "armor " + this.ammo + "sheels";
+            return this.name + " |" + this.armor + " armor |" + this.ammo + " sheels";
         }else{
             return this.name + "DEAD";
         }
