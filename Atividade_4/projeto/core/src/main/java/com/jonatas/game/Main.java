@@ -143,6 +143,7 @@ public class Main implements ApplicationListener {
         meteoroSprite.setY(worldHeight);
         meteorosAleatorios.add(meteoroSprite);
     }
+    
     @Override
     public void pause() {
         // Invoked when your application is paused.
